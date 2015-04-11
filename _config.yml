@@ -6,7 +6,7 @@
 title: blog.innit
 description: javascript blag
 author: Rob Wormald
-language: en-US
+language: default
 timezone:
 
 # URL
@@ -61,11 +61,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: light
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/innit/blog.git
-  branch: gh-pages
+  repo: https://github.com/innit/innit.github.io.git
+  branch: master
